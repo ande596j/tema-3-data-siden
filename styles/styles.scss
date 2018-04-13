@@ -1,3 +1,92 @@
-body{
-  background-color: steelblue;
+.forside{
+  background-color: #AAA8A8;
+  padding: 0 50px 0 50px;
+
+
 }
+img{
+  width: 100%;
+}
+.logo{
+  width: 25%;
+  height: 25%;
+  justify-content: center;
+
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  li a:hover {
+    background-color: #111;
+  }
+
+
+h1{
+  text-align: center;
+  color: #9F6262;
+  padding-bottom: 50px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.links{
+background-color: #333333;
+  border-style: none;
+  border-color: black;
+  padding: 50px;
+  color: #9F6262;
+  font-size: 50px;
+  margin-left: 75px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+}
+
+@media screen and (min-width: 780px){
+  .forside{
+   display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-areas:
+            "header header header"
+            "overskriv overskriv overskriv"
+            "facebookData instaganttData hjemmesideData"
+            "footer footer footer";
+header{
+  grid-area: header;
+}
+.overskriv{
+grid-area: overskriv;
+}
+.facebookData{
+grid-area: facebookData;
+}
+.instaganttData{
+  grid-area: instaganttData;
+}
+.hjemmesideData{
+  grid-area: hjemmesideData;
+}
+footer{
+  grid-area: footer;
+}  }
+
+  }
+
+
+

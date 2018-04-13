@@ -1,0 +1,45 @@
+.hjemmeside{
+  background-color: #AAA8A8;
+  padding: 0 50px 0 50px;
+
+
+}
+img{
+  width: 100%;
+}
+.logo{
+  width: 25%;
+  height: 25%;
+  justify-content: center;
+
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+h1{
+  text-align: center;
+  color: #9F6262;
+  padding-bottom: 50px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
